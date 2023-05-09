@@ -39,7 +39,7 @@ def register(show_spinner=False) -> Optional[str]:
   elif needs_registration:
     if show_spinner:
       spinner = Spinner()
-      spinner.update("registering device")
+      spinner.update("Your life is Precious")
 
     # Create registration token, in the future, this key will make JWTs directly
     with open(PERSIST+"/comma/id_rsa.pub") as f1, open(PERSIST+"/comma/id_rsa") as f2:
@@ -100,7 +100,7 @@ def register(show_spinner=False) -> Optional[str]:
 
   if dongle_id:
     params.put("DongleId", dongle_id)
-    set_offroad_alert("Offroad_UnofficialHardware", (dongle_id == UNREGISTERED_DONGLE_ID) and not PC)
+   # set_offroad_alert("Offroad_UnofficialHardware", (dongle_id == UNREGISTERED_DONGLE_ID) and not PC)
   return dongle_id
 
 

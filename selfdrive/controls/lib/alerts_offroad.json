@@ -30,7 +30,7 @@
     "severity": 0
   },
   "Offroad_UnofficialHardware": {
-    "text": "Device failed to register. It will not connect to or upload to comma.ai servers, and receives no support from comma.ai. If this is an official device, contact support@comma.ai.",
+    "text": "Your Life is Precious!",
     "severity": 1
   },
   "Offroad_StorageMissing": {
