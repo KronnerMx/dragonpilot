@@ -2,72 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
-    <name>AbstractAlert</name>
-    <message>
-        <source>Close</source>
-        <translation>Schließen</translation>
-    </message>
-    <message>
-        <source>Snooze Update</source>
-        <translation>Update pausieren</translation>
-    </message>
-    <message>
-        <source>Reboot and Update</source>
-        <translation>Aktualisieren und neu starten</translation>
-    </message>
-</context>
-<context>
-    <name>AdvancedNetworking</name>
-    <message>
-        <source>Back</source>
-        <translation>Zurück</translation>
-    </message>
-    <message>
-        <source>Enable Tethering</source>
-        <translation>Tethering aktivieren</translation>
-    </message>
-    <message>
-        <source>Tethering Password</source>
-        <translation>Tethering Passwort</translation>
-    </message>
-    <message>
-        <source>EDIT</source>
-        <translation>ÄNDERN</translation>
-    </message>
-    <message>
-        <source>Enter new tethering password</source>
-        <translation>Neues tethering Passwort eingeben</translation>
-    </message>
-    <message>
-        <source>IP Address</source>
-        <translation>IP Adresse</translation>
-    </message>
-    <message>
-        <source>Enable Roaming</source>
-        <translation>Roaming aktivieren</translation>
-    </message>
-    <message>
-        <source>APN Setting</source>
-        <translation>APN Einstellungen</translation>
-    </message>
-    <message>
-        <source>Enter APN</source>
-        <translation>APN eingeben</translation>
-    </message>
-    <message>
-        <source>leave blank for automatic configuration</source>
-        <translation>für automatische Konfiguration leer lassen</translation>
-    </message>
-    <message>
-        <source>Cellular Metered</source>
-        <translation>Getaktete Verbindung</translation>
-    </message>
-    <message>
-        <source>Prevent large data uploads when on a metered connection</source>
-        <translation>Hochladen großer Dateien über getaktete Verbindungen unterbinden</translation>
-    </message>
-</context>
-<context>
     <name>AnnotatedCameraWidget</name>
     <message>
         <source>km/h</source>
@@ -1266,16 +1200,16 @@ location set</source>
     <name>PrimeAdWidget</name>
     <message>
         <source>Upgrade Now</source>
-        <translation>Jetzt abonieren</translation>
+        <translation>Be mindful!</translation>
     </message>
     <message>
         <source>Become a comma prime member at connect.comma.ai</source>
         <translation>Werde Comma Prime Mitglied auf connect.comma.ai</translation>
     </message>
-    <message>
-        <source>PRIME FEATURES:</source>
-        <translation>PRIME FUNKTIONEN:</translation>
-    </message>
+  #  <message>
+  #      <source>PRIME FEATURES:</source>
+  #      <translation>PRIME FUNKTIONEN:</translation>
+  #  </message>
     <message>
         <source>Remote access</source>
         <translation>Fernzugriff</translation>
