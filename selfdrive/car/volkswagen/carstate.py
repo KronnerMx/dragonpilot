@@ -225,14 +225,9 @@ class CarState(CarStateBase):
     ret.stockFcw = False
     ret.stockAeb = False
 
-    # Update ACC radar status.
-    self.acc_type = ext_cp.vl["ACC_System"]["ACS_Typ_ACC"]
-    ret.cruiseState.available = bool(pt_cp.vl["Motor_5"]["GRA_Hauptschalter"])
-    ret.cruiseState.enabled = pt_cp.vl["Motor_2"]["GRA_Status"] in (1, 2)
-    if self.CP.pcmCruise:
-      ret.accFaulted = ext_cp.vl["ACC_GRA_Anzeige"]["ACA_StaACC"] in (6, 7)
-    else:
-      ret.accFaulted = pt_cp.vl["Motor_2"]["GRA_Status"] == 3
+    # Update ACC radar status. CHANGE FOR CC activation 
+    ret.cruiseState.available = bool(pt_cp.vl["GRA_Neu"]['GRA_Hauptschalt'])
+    ret.cruiseState.enabled = True if pt_cp.vl["Motor_2"]['GRA_Status'] in [1, 2] else False
 
     # Update ACC setpoint. When the setpoint reads as 255, the driver has not
     # yet established an ACC setpoint, so treat it as zero.
